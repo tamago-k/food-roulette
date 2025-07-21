@@ -212,6 +212,25 @@ export default function Home() {
           </div>
         </>
       )}
+    <p
+      style={{
+        fontSize: "12px",
+        color: "#888",
+        textAlign: "center",
+        marginTop: "40px",
+        lineHeight: "1.6",
+      }}
+    >
+      使用素材
+      <br />
+      <a 
+        style={{
+          textDecoration: "underline"
+        }}
+      href="https://hpgpixer.jp/" target="_blank" rel="noopener noreferrer">
+        ピクセルガロー
+      </a>
+    </p>
     </main>
   );
 }
